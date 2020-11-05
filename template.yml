@@ -8,4 +8,4 @@ Resources:
     Properties:
       Handler: serverless.HelloWorld
       Runtime: java8
-      Role: arn:aws:iam::ACCOUNT_NUMBER:role/LambdaFullAccessRole
+      Role: arn:aws:iam::112328345689:role/LambdaFullAccessRole
