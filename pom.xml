@@ -9,6 +9,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
     <dependencies>
@@ -30,7 +32,6 @@
                   <plugin>
                       <groupId>org.apache.maven.plugins</groupId>
                       <artifactId>maven-shade-plugin</artifactId>
-                      <version>3.8.0</version>
                       <configuration>
                         <createDependencyReducedPom>false</createDependencyReducedPom>
                         <source>1.6</source>
